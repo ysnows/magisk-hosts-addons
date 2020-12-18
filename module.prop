@@ -1,0 +1,7 @@
+id=hosts-addons
+name=add hosts to /system/etc/hosts
+version=v0.0.1
+versionCode=1
+author=ysnows
+description=This module adds hosts to /etc/hosts 
+minMagisk=2400
