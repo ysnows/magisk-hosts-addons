@@ -4,6 +4,7 @@
 MODDIR=${0%/*}
 
 mkdir -p $MODDIR/system/etc/
+rm -rf $MODDIR/system/etc/hosts
 touch $MODDIR/system/etc/hosts
 
 echo '127.0.0.1 update.miui.com' >> $MODDIR/system/etc/hosts
